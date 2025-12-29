@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613045160592",
+    "project_id": "blockchain-login-283bd",
+    "storage_bucket": "blockchain-login-283bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613045160592:android:a07e0550c9e78e7daea615",
+        "android_client_info": {
+          "package_name": "com.example.blockchain_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRxC13cuCGh9da8jyYcxI56115lLswSQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

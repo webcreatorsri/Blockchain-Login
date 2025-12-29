@@ -1,0 +1,52 @@
+name: blockchain_login
+description: Aadhaar Blockchain Verification App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.17.3
+  cloud_firestore: ^4.15.0
+  firebase_storage: ^11.2.0
+  path_provider: ^2.1.0
+  
+  # Image
+  image: ^4.1.4
+  image_picker: ^1.0.4
+  google_mlkit_text_recognition: ^0.12.0
+  
+  # Also make sure you have these (if not already):
+  crypto: ^3.0.3
+  pointycastle: ^3.7.3
+  
+  # Encryption
+  encrypt: ^5.0.3
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # HTTP
+  http: ^1.1.0
+  
+  # Blockchain - USE THIS EXACT VERSION
+  web3dart: ^2.7.3
+  
+  # Internationalization
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/contract_address.txt
+    - assets/contract_abi.json
